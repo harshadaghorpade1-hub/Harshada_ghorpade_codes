@@ -1,0 +1,16 @@
+'''
+1. Write a program to display:
+Value
+Type
+Memory address
+(for a variable using appropriate built in functions)
+'''
+#Answer:
+print("Que1")
+No=11
+print("Value of No is: ",No)
+print("Type of No is: ",type(No))
+print("Memory address of No is: ",id(No))
+
+print("-"*100)
+

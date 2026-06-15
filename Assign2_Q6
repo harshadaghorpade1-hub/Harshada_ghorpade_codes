@@ -1,0 +1,20 @@
+'''
+6. Write a program that accepts two numbers from user and prints:
+Addition
+Substraction
+Multiplication
+Division
+'''
+#Answer: values will be 3,9
+print("Enter first number: ")
+No1 = int(input())
+print("Enter second number: ")
+No2 = int(input())
+print("Addition is:", No1 + No2)
+print("Subtraction is:", No1 - No2)
+print("Multiplication is :", No1 * No2)
+
+if No1 != 0:
+    print("Division is:", No2 / No1)
+
+print("-"*100)

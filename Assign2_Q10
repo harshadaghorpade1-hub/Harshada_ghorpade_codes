@@ -1,0 +1,15 @@
+'''
+10.What will be the output:
+print("10"+"20")
+print(10+20)
+Explain difference
+'''
+
+#Answer:
+print("Que10")
+print("10"+"20")
+print(10+20)
+print("The + operator performs string concatenation. " \
+"So, the first prints 1020 (string concatenation) and the second prints 30 (numeric addition).")
+
+print("-"*100)
