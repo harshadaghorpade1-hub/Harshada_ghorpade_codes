@@ -1,0 +1,17 @@
+#Write a program which contains one function ChkGreater() that accepts two numbers and prints the greater number
+def ChkGreater(a,b):
+    if(a>b):
+        print(a,"is greater than",b)
+    elif(b>a):
+        print(b,"is greater than",a)
+    else:
+        print("Both numbers are equal")
+
+def main():
+    no1= int(input("Enter first number: "))
+    no2= int(input("Enter second number: "))
+
+    ChkGreater(no1,no2)
+
+if __name__ == "__main__":
+    main()

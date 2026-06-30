@@ -1,0 +1,11 @@
+#Write a program which accepts one number and print square of that number
+def Square(no):
+    return no * no
+
+def main():
+    no= int(input("Enter a number: "))
+    ret = Square(no)
+    print("Square of",no,"is",ret)
+
+if __name__ == "__main__":
+    main()
